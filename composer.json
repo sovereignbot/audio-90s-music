@@ -1,0 +1,26 @@
+{
+  "name": "sovereignbot/plugin-90s-music",
+  "description": "Listen to smooth music from the 90s",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Karbowiak",
+      "email": "karbowiak@gmail.com"
+    },
+    {
+      "name": "Matthew Glinski",
+      "email": "matthewglinski@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sovereign\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.0.0",
+    "sovereignbot/playback-controls": "dev-master",
+    "norkunas/youtube-dl-php": "0.2.*"
+  }
+}
