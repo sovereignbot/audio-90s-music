@@ -4,7 +4,7 @@ namespace Sovereign\Service;
 use League\Container\ServiceProvider\AbstractServiceProvider;
 use League\Container\ServiceProvider\BootableServiceProviderInterface;
 
-class SkeletonServiceProvider extends AbstractServiceProvider implements BootableServiceProviderInterface
+class UnleashThe90sServiceProvider extends AbstractServiceProvider implements BootableServiceProviderInterface
 {
     /**
      * The provides array is a way to let the container
